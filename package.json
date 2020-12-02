@@ -27,12 +27,8 @@
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
     "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --pretty='* %s' --first-parent"
   },
-  "bin": {
-    "prettyjson": "./bin/prettyjson"
-  },
   "dependencies": {
-    "colors": "^1.1.2",
-    "minimist": "^1.2.0"
+    "colors": "^1.1.2"
   },
   "devDependencies": {
     "coveralls": "^2.11.15",
